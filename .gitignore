@@ -1,0 +1,15 @@
+# Build files
+dist/*
+build/*
+
+# OSX specific files
+.DS_Store
+
+# NPM modules
+node_modules/*
+
+# Editor config files
+.vscode/*
+
+# Secrets
+.env
