@@ -16,6 +16,7 @@ const appendTaskToList = (task) => {
 	deleteButton.type = 'button';
 	deleteButton.className = 'delete-task'
 	deleteButton.innerHTML = '✖';
+	deleteButton.style.color = 'red';
 	deleteButton.onclick = (e) => {
 		deleteTask(task).then(() => {
 			myList.removeChild(listItem);
