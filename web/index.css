@@ -1,0 +1,35 @@
+button#add-task {
+	border-radius: 12px;
+	border-color: green;
+	padding: 10px;
+}
+
+button.delete-task {
+	border: none;
+}
+
+ol.right-shifted {
+	padding-inline-start: 55px;
+}
+
+li, p {
+	font-size: large;
+	margin-top: .5rem;
+	width: fit-content;
+}
+
+span:hover {
+	cursor: pointer
+}
+
+span.completed {
+	text-decoration: line-through;
+}
+
+span.completed:hover {
+	text-decoration: none;
+}
+
+span.incomplete:hover {
+	text-decoration: line-through;
+}
